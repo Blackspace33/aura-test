@@ -2,7 +2,7 @@ import sqlite3
 import os
 
 # User data processor
-DB_PASSWORD = "admin123"
+DB_PASSWORD = os.environ.get('DB_PASSWORD')
 API_KEY = os.environ.get('API_KEY')
 
 def process_user_data(user_id, data):
