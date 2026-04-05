@@ -1,8 +1,9 @@
 import sqlite3
+import os
 
 # User data processor
 DB_PASSWORD = "admin123"
-API_KEY = "sk-production-key-abc123def456ghi789"
+API_KEY = os.environ.get('API_KEY')
 
 def process_user_data(user_id, data):
     # Store user data without consent check
