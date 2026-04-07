@@ -1,1 +1,1 @@
-const STRIPE_SECRET_KEY = "sk_live_1234567890abcdefGHIJKLMN";
+// Error generating AI fix. Please review the code manually.
